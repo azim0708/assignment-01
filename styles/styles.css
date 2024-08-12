@@ -29,3 +29,66 @@
     border-radius: 8px;
     opacity: 0.8;
 }
+.banner-section{
+    height: 652px;
+    max-width: 1366px;
+    border: 2px solid red;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: contain;
+}
+.banner-logo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-logo img{
+    height: 250px;
+    width: 250px;
+}
+.banner-heading{
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.banner-heading h2{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.banner-text{
+    height: 60px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.banner-text p{
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+    font-size: 15px;
+    opacity: 80%;
+}
+.contact-button{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-button button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+
+}
